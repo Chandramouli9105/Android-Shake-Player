@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/abu_tua"
+>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_alignParentTop="true" 
+	    >
+   <ListView
+       	android:padding="10dip"
+		android:id="@+id/listBrowse"
+		android:cacheColorHint="@color/abu_tua"
+		android:background="@color/abu_tua"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:listSelector="@drawable/list"
+	/>
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent" 
+   android:layout_height="fill_parent" 
+   android:background="@color/abu_tua"
+   >
+<TextView
+		    android:id="@+id/txtJudulApp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:textStyle="bold"
+			android:textColor="@color/putih"
+			android:text="@string/app_name"
+			android:gravity="center_vertical"
+			android:textSize="14sp"
+			android:padding="12dip"
+			android:background="@drawable/jd_bar"
+/>
+<LinearLayout 
+    android:orientation="vertical" 
+	android:layout_above="@+id/lytControl"
+    android:layout_below="@+id/txtJudulApp"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:padding="10dip"
+	>
+		<ImageView 
+		    android:contentDescription="@+id/bg"
+		    android:id="@+id/imagePlayer" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent"
+		    android:scaleType="matrix"  
+       		android:adjustViewBounds="true" 
+		    >
+		</ImageView>
+</LinearLayout>
+<LinearLayout
+		android:id="@+id/lytControl"
+		android:layout_alignParentBottom="true"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/jd_bar"
+		android:padding="10dip"
+		android:gravity="center_horizontal"
+		android:weightSum="5" 
+	>
+	<ImageButton 
+	    android:contentDescription="@+id/btnPrevImage"
+		android:id="@+id/btnPrevImage"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/prev"
+		android:background="@drawable/tombolgambar"
+		android:layout_weight="1"
+		android:gravity="center_horizontal"
+		android:layout_marginRight="8dip"
+		android:onClick="onClickPrevImg">
+	</ImageButton>
+	<ImageButton 
+	    android:contentDescription="@+id/btnNextImage"
+		android:id="@+id/btnNextImage"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/next"
+		android:background="@drawable/tombolgambar"
+		android:layout_weight="1"
+		android:gravity="center_horizontal"
+		android:layout_marginLeft="8dip"
+		android:onClick="onClickNextImg">
+	</ImageButton>
+</LinearLayout>
+</RelativeLayout>

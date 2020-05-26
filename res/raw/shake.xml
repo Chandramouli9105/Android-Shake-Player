@@ -1,0 +1,19 @@
+<data>
+<informasi>
+	<judul>Media Player</judul>
+	<penjelasan>
+	    In default, application display our files music, video, image or animation with .gif in sdcard. To play music you can choose a file with extension .mp3 .mav .mid .png .jpg .3gp .gif or many more. You can click the button play or pause or previous or next to the files. 
+	    Shake Player is an application under Android 2.2 platform. This application can be used to created a simple media player. But isn't a simple one, this application is using a shake button and shake your device. Shake button means you can use to click play, pause, next or previous button with event shake button. Shake device means you must shake your devices slowly to enter this app, and you can use shake device to replace click event play, pause or stop button with shake your device. Shake device must slowly, if you shake device to left you can use button play or pause without click button, if you shake to the right you can use button stop without click button. You can use shake device into image too, right to next button and left to previous button. 
+	    You can see all of code in this file and you can using the code for custumize your media application, but if you wanna to create a application using media player, you must have basic knowledge of android development.</penjelasan>		
+</informasi>
+<informasi>
+	<judul>About</judul>	 
+	<penjelasan>
+	    This a simple Media Player to play music, display image, play animation with extension .gif, or play video with shake button and shake phone device.</penjelasan>		
+</informasi>
+<informasi>
+	<judul>Support</judul>	 
+	<penjelasan>
+	    You can email me in abcd@yahoo.com for my support.</penjelasan>		
+</informasi>
+</data>

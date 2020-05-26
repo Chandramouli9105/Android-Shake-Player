@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<!-- active tab -->
+	<item>
+		<shape>
+			<gradient
+			    android:startColor="#c50000"
+				android:endColor="#df0000"
+				android:angle="270"
+			/>
+		</shape>
+	</item>	
+
+</selector>

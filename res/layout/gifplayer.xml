@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/abu_tua">
+<TextView
+		    android:id="@+id/txtJudulApp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:textStyle="bold"
+			android:textColor="@color/putih"
+			android:text="@string/app_name"
+			android:gravity="center_vertical"
+			android:textSize="14sp"
+			android:padding="12dip"
+			android:background="@drawable/jd_bar"
+/>
+
+<LinearLayout 
+    android:orientation="vertical" 
+	android:layout_above="@+id/lytControl"
+    android:layout_below="@+id/txtJudulApp"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:weightSum="5" 
+	>
+	<LinearLayout 
+	    android:layout_weight="3" 
+	    android:orientation="vertical" 
+		android:layout_width="fill_parent" 
+		android:layout_height="0dip" 
+		android:layout_marginTop="75dip"
+		android:layout_marginLeft="75dip"
+		android:layout_marginRight="75dip"
+		android:layout_gravity="center_horizontal">
+		<media.radio.player.GifView
+		    android:id="@+id/gifView"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent"
+		    android:padding="30dip"
+		    />
+</LinearLayout>
+</LinearLayout>
+<LinearLayout
+		android:id="@+id/lytControl"
+		android:layout_alignParentBottom="true"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/jd_bar"
+		android:padding="10dip"
+		android:gravity="center_horizontal"
+		android:weightSum="3" 
+	>
+	<ImageButton 
+	    android:contentDescription="@+id/btnPlayGif"
+		android:id="@+id/btnPlayGif"
+		android:layout_width="0dip"
+		android:layout_height="wrap_content"
+		android:src="@drawable/play"
+		android:background="@drawable/tombolgambar"
+		android:onClick="onClickGif"
+		android:layout_weight="1"
+		android:gravity="center_horizontal"
+		android:layout_marginRight="4dip">
+	</ImageButton>
+	<ImageButton 
+	    android:contentDescription="@+id/btnStopGif"
+		android:id="@+id/btnStopGif"
+		android:layout_width="0dip"
+		android:layout_height="wrap_content"
+		android:src="@drawable/stop"
+		android:background="@drawable/tombolgambar"
+		android:onClick="onClickStopGif"
+		android:layout_weight="1"
+		android:gravity="center_horizontal"
+		android:layout_marginLeft="4dip">
+	</ImageButton>
+</LinearLayout>
+</RelativeLayout>

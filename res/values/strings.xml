@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MeradioActivity!</string>
+    <string name="app_name">Shake Player App</string>
+    <string name="listPilih">Choose File</string>
+    <string name="about">About</string>
+    <string name="shake">To Enter App, Shake Your Phone</string>
+
+</resources>
